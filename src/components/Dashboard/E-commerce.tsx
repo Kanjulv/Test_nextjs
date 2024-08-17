@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
-import DisplaySettingsOutlinedIcon from '@mui/icons-material/DisplaySettingsOutlined';
+// import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
+// import DisplaySettingsOutlinedIcon from '@mui/icons-material/DisplaySettingsOutlined';
 
 const ECommerce: React.FC = () => {
   return (
@@ -42,7 +42,7 @@ const ECommerce: React.FC = () => {
             <hr />
             <div className="mt-4 flex flex-col items-center justify-center py-8">
               <div className="text-center">
-                <span className="block text-3xl font-bold"> <ArticleOutlinedIcon/> </span>
+                <span className="block text-3xl font-bold"></span>
                 <p className="mt-2 text-lg font-bold">No statements available</p>
                 <p className="mt-1 text-sm text-gray-500">
                   A summary statement will be generated at the end of each month
@@ -59,7 +59,7 @@ const ECommerce: React.FC = () => {
           <h2 className="text-xl font-extrabold">Service Fees</h2>
           <div className="mt-4 flex flex-col items-center justify-center py-8">
             <div className="text-center">
-              <span className="block text-3xl font-bold"><DisplaySettingsOutlinedIcon/></span>
+              <span className="block text-3xl font-bold"></span>
               <p className="mt-2 text-lg font-bold">No service fees charged</p>
               <p className="mt-1 text-sm text-gray-500">
                 No service fees have been charged yet.
