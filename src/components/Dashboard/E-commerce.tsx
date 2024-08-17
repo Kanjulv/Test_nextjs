@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
+import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
+import DisplaySettingsOutlinedIcon from '@mui/icons-material/DisplaySettingsOutlined';
 
 const ECommerce: React.FC = () => {
   return (
-      <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
+      <div className="bg-white mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
         {/* Billing Section */}
         <div className="col-span-12 bg-white text-black p-4">
           <h1 className="text-2xl font-extrabold">Billing</h1>
@@ -40,7 +42,7 @@ const ECommerce: React.FC = () => {
             <hr />
             <div className="mt-4 flex flex-col items-center justify-center py-8">
               <div className="text-center">
-                <span className="block text-3xl font-bold"></span>
+                <span className="block text-3xl font-bold"><ArticleOutlinedIcon/></span>
                 <p className="mt-2 text-lg font-bold">No statements available</p>
                 <p className="mt-1 text-sm text-gray-500">
                   A summary statement will be generated at the end of each month
@@ -57,7 +59,7 @@ const ECommerce: React.FC = () => {
           <h2 className="text-xl font-extrabold">Service Fees</h2>
           <div className="mt-4 flex flex-col items-center justify-center py-8">
             <div className="text-center">
-              <span className="block text-3xl font-bold"></span>
+              <span className="block text-3xl font-bold"><DisplaySettingsOutlinedIcon/></span>
               <p className="mt-2 text-lg font-bold">No service fees charged</p>
               <p className="mt-1 text-sm text-gray-500">
                 No service fees have been charged yet.

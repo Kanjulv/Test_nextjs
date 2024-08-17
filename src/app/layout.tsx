@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="dark:bg-white-2 dark:text-black">
+        <div className="bg-white dark:text-black">
           {loading ? <Loader /> : children}
         </div>
       </body>
