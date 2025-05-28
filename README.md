@@ -22,8 +22,6 @@ A modern, responsive admin dashboard built using **Next.js 14**, **TypeScript**,
 ├── tailwind.config.ts # Tailwind customization
 └── README.md # Project documentation
 
-
-
 ## 📦 Getting Started
 
 To run the project locally:
@@ -42,7 +40,7 @@ npm install
 npm run dev
 
 Then, open your browser and go to http://localhost:3000
-
+```
 🧪 Tech Stack
 Next.js 14
 
